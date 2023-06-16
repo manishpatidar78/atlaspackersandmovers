@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Atlas Packers & Movers</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1">
+        <img src="./atlaspic.png" alt="" />
+      </div>
+      <div class="div2">
+
+    <table class="table-wrapper">
+      <tbody>
+        <tr>
+          <td></td>
+          <td>
+            <form action="" class="form1">
+              <h2 class="formHeading">Atlas Packers & Movers</h2>
+              <table class="table1">
+                <!-- first Row -->
+                <tr>
+                  <td colspan="2">
+                    <a href="#relocation">Relocation Info</a> <br />
+                    <a href="#PersonalInfo">Personal Info</a><br />
+                    <a href="#Getaquote">Get a quote</a><br />
+                  </td>
+                </tr>
+                <!-- Second Row -->
+                <tr>
+                  <td colspan="2" class="category" id="relocation">
+                    Relocation Information
+                  </td>
+                </tr>
+                <!-- Third Row -->
+                <tr>
+                  <td>
+                    <select name="currentCity" id="currentCity">
+                      <option value="Hyderabad">Hyderabad</option>
+                      <option value="Mumbai">Mumbai</option>
+                      <option value="Visakhapatnam">Visakhapatnam</option>
+                    </select>
+                  </td>
+                  <td>
+                    <input type="date" />
+                  </td>
+                </tr>
+                <!-- Fourth Row - Select Category -->
+                <tr>
+                  <td>Select Category</td>
+                  <td>
+                    <input type="radio" id="HomeRelocation" name="Relocation" />
+                    <label for="HomeRelocation">Home Relocation</label>
+                    <input
+                      type="radio"
+                      id="FactoryOfficeRelocation"
+                      name="Relocation"
+                    />
+                    <label for="FactoryOfficeRelocation"
+                      >Factory/Office Relocation</label
+                    >
+                  </td>
+                </tr>
+                <!-- Fifth Row Address -->
+                <tr>
+                  <td>
+                    <textarea
+                      placeholder="From Address"
+                      name=""
+                      id=""
+                      cols="50"
+                      rows="4"
+                    ></textarea>
+                  </td>
+                  <td>
+                    <textarea
+                      placeholder="To Address"
+                      name=""
+                      id=""
+                      cols="50"
+                      rows="4"
+                    ></textarea>
+                  </td>
+                </tr>
+                <!-- Sixth Row - Distance -->
+                <tr>
+                  <td>Distance in km (approx)</td>
+                  <td>
+                    <input type="range" />
+                  </td>
+                </tr>
+                <!-- Seventh Row - Category Heading -->
+                <tr>
+                  <td colspan="2" class="category">Personal Information</td>
+                </tr>
+                <!-- Eigth Row - Customer Name -->
+                <tr>
+                  <td>
+                    <label for="CustomerName">Customer Name</label>
+                  </td>
+                  <td>
+                    <input type="text" id="CustomerName" />
+                  </td>
+                </tr>
+                <!-- Ninth Row - Phone Number -->
+                <tr>
+                  <td>
+                    <label for="PhoneNumber">Phone Number</label>
+                  </td>
+                  <td>
+                    <input type="tel" id="PhoneNumber" />
+                  </td>
+                </tr>
+                <!-- Tenth Row - Email Id -->
+                <tr>
+                  <td>
+                    <label for="EmailId">Email Id</label>
+                  </td>
+                  <td>
+                    <input type="email" id="EmailId" />
+                  </td>
+                </tr>
+                <!-- 11th Row -->
+                <tr>
+                  <td colspan="2" class="category">Get a Quote</td>
+                </tr>
+                <!-- 12th Row - Charges -->
+                <tr>
+                  <td>Possible Charges Involved</td>
+                  <td>
+                    <input
+                      type="checkbox"
+                      name="ParkingCharges"
+                      id="ParkingCharges"
+                    /><label for="ParkingCharges">Parking Charges</label
+                    ><input
+                      type="checkbox"
+                      name="LoadingCharges"
+                      id="LoadingCharges"
+                    /><label for="LoadingCharges">Loading Charges</label>
+                    <br />
+                    <input
+                      type="checkbox"
+                      name="TransportationCharges"
+                      id="TransportationCharges"
+                    /><label for="TransportationCharges"
+                      >Transportation Charges </label
+                    ><input
+                      type="checkbox"
+                      name="UnloadingCharges"
+                      id="UnloadingCharges"
+                    /><label for="UnloadingCharges">Unloading Charges</label>
+                    <br /><input
+                      type="checkbox"
+                      name="UnpackingCharges"
+                      id="UnpackingCharges"
+                    /><label for="UnpackingCharges">Unpacking Charges</label
+                    ><input
+                      type="checkbox"
+                      name="EscortCharges"
+                      id="EscortCharges"
+                    /><label for="EscortCharges">Escort Charges</label>
+                    <br /><input
+                      type="checkbox"
+                      name="actroiCharges"
+                      id="actroiCharges"
+                    /><label for="actroiCharges">actroi aCharges</label>
+                  </td>
+                </tr>
+                <!-- 13th Row -->
+                <tr>
+                  <td colspan="2" class="category">
+                    Quote you receive will include service tax of 12.3%
+                  </td>
+                </tr>
+              </table>
+              <button class="form-btn">GET A QUOTE</button>
+            </form>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+  </body>
+</html>
